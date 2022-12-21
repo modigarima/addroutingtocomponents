@@ -1,0 +1,29 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+nav{
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    color: green;
+    font-weight: bolder;
+    font-size: 15px;
+    display: inline-block;
+    text-shadow: 2px 2px 5px black;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    background-color: black;
+    border-radius: 50px;
+
+}
+a:hover{
+    transform: scale(1.12);
+    transition: all 0.5s ease-in-out;
+}
